@@ -1,47 +1,26 @@
-<!-- tdk written (c) GPL documentation licence-->
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<meta name="keywords" content="disk encryption, security, transparent, AES, plausible deniability, virtual drive, Linux, MS Windows, portable, USB drive, partition">
-<meta name="description" content="LibreCrypt: An Open-Source transparent encryption program for PCs. With this software, you can create one or more &quot;containers&quot; on your PC - which appear as disks, anything written to these disks is automatically encrypted before being stored on your hard drive.">
+# Translating LibreCrypt
 
-<TITLE>Advanced Topics</TITLE>
-<link href="https://raw.githubusercontent.com/t-d-k/librecrypt/master/docs/styles_common.css" rel="stylesheet" type="text/css">
-
-<link rel="shortcut icon" href="https://github.com/t-d-k/librecrypt/raw/master/src/Common/Common/images/DoxBox.ico" type="image/x-icon">
-
-<SPAN CLASS="master_link">
-[![LibreCrypt logo](https://github.com/t-d-k/librecrypt/raw/master/src/Common/Common/images/DoxBox128.png)](http://LibreCrypt.eu/)
-</SPAN>
-<SPAN CLASS="master_title">
-_[LibreCrypt](http://LibreCrypt.eu/): Open-Source disk encryption for Windows_
-</SPAN>
-***
-
-## Translating LibreCrypt
-
-* * *
-
-<p>LibreCrypt currently supports the following languages:</p>
-
-	* Croatian
-	* Czech
-	* English
-	* French
-	* German
-	* Greek
-	* Italian
-	* Japanese
-	* Russian
-	* Spanish
+LibreCrypt currently supports the following languages:
+- Croatian
+- Czech
+- English
+- French
+- German
+- Greek
+- Italian
+- Japanese
+- Russian
+- Spanish
 
 ### To translate into a new language:
 
-	1.  Find the two-letter ISO 639-1 Alpha-2 code for the language you want to translate to (e.g. `fr` for French, `de` for German, `ru` for Russian). 
+- Find the two-letter ISO 639-1 Alpha-2 code for the language you want to translate to (e.g. `fr` for French, `de` for German, `ru` for Russian). 
 	Call this &#39;XX&#39;.
-	1.  Install the latest copy of LibreCrypt.
-	1.  Find the directory LibreCrypt was installed in (by default <code>c:\Program Files (86)\LibreCrypt\</code> and copy the `default.po` file stored under 
+- Install the latest copy of LibreCrypt.
+- Find the directory LibreCrypt was installed in (by default <code>c:\Program Files (86)\LibreCrypt\</code> and copy the `default.po` file stored under 
 	<code>locale\en\LC_MESSAGES</code> to a new directory called: <code>locale\XX\LC_MESSAGES</code> where &#39;XX&#39; is the language code.  
 	You can also find this file in the LibreCryptPortable.zip archive.
-	1.  Edit your copy of `default.po`, adding the translated versions of each `msgid` string as the corresponding `msgstr` text. 
+- Edit your copy of `default.po`, adding the translated versions of each `msgid` string as the corresponding `msgstr` text. 
 	For example, a German translation would be:
 	<br/>	     
 	<code>#  Example translation<br />
@@ -102,5 +81,5 @@ When newer versions of LibreCrypt are released, a translation (.po) file can hav
     are filters for use with open/save dialogs. The text descriptions of these filters should be translated, but not the file masks
     (e.g. `Library file` and `All files` in the above example, but not `*.dll` or `*.*`)
   * A number of the text strings include `%s`, `%1`, etc. These are placeholders which will be replaced with automatically generated text.
- 
-    
+
+_Original by Sarah Dean, copyright 2004 - 2008 Sarah Dean, 2015 tdk_

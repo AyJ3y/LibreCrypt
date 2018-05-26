@@ -1,4 +1,4 @@
-# ![LibreCrypt logo](src/Common/Common/images/DoxBox32.png) LibreCrypt
+# ![LibreCrypt](src/assets/images/DoxBox32.png) LibreCrypt
 _**Open-Source disk encryption for Windows**_
 
 [Download](https://github.com/t-d-k/doxbox/releases/download/v6.2-beta/InstallLibreCrypt_v62Beta.exe)  

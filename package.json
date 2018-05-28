@@ -1,0 +1,15 @@
+{
+    "name": "librecrypt",
+    "description": "Free LUKS-compatible encryption for Windows.",
+    "version": "7.0.0",
+    "os": [
+        "Windows"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ludwhe/LibreCrypt"
+    },
+    "bugs": {
+        "url": "https://github.com/ludwhe/LibreCrypt/issues"
+    }
+}

@@ -13,7 +13,7 @@ If in any doubt do not distribute this product.
 
 ## Preamble
 
-The following licence covers FreeOTFE, FreeOTFE4PDA, LibreCrypt and FreeOTFE Explorer (including source, executables, documentation and all related) with the exception of the files stored in the source release under the "src\3rd_party" directory which are covered by the separate licences included with them (e.g. libtomcrypt is public domain software, Twofish is uncopyrighted and license-free):
+The following licence covers FreeOTFE, FreeOTFE4PDA, LibreCrypt and FreeOTFE Explorer (including source, executables, documentation and all related) with the exception of the files stored in the source release under the "src\lib\dep" directory which are covered by the separate licences included with them (e.g. libtomcrypt is public domain software, Twofish is uncopyrighted and license-free):
 
 The primary purposes of this licence are:
 
